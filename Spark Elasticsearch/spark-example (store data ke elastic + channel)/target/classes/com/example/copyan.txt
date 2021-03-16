@@ -1,0 +1,29 @@
+if (videoLine.split(";")[3].isEmpty() || videoLine.split(";")[3].isBlank()) {
+                if (videoLine.split(";")[4].isEmpty() || videoLine.split(";")[4].isBlank()){
+                    if(videoLine.split(";")[5].isEmpty() || videoLine.split(";")[5].isBlank()){
+                        if(videoLine.split(";")[6].isEmpty() || videoLine.split(";")[6].isBlank(){
+                            return videoLine.split(";")[8];
+                        }else
+                            return videoLine.split(";")[7];
+                    }else
+                        return videoLine.split(";")[6];
+                }else
+                    return videoLine.split(";")[5];
+            }else if (videoLine.split(";")[3].contains("\"")){
+                    return videoLine.split(";")[2] + " ;; " + videoLine.split(";")[4];
+                }else
+                    return videoLine.split(";")[2] + " ; " + videoLine.split(";")[3];
+AYN8gSNp9Xs
+if (videoLine.split(";")[3].isEmpty() || videoLine.split(";")[3].isBlank()) {
+                if (videoLine.split(";")[4].isEmpty() || videoLine.split(";")[4].isBlank()){
+                    if(videoLine.split(";")[5].isEmpty() || videoLine.split(";")[5].isBlank()){
+                        if(videoLine.split(";")[6].isEmpty() || videoLine.split(";")[6].isBlank(){
+                            return videoLine.split(";")[8];
+                        }else
+                            return videoLine.split(";")[7];
+                    }else
+                        return videoLine.split(";")[6];
+                }else
+                    return videoLine.split(";")[5];
+            }else
+                return videoLine.split(";")[3];
